@@ -47,4 +47,6 @@
 }
 .result--found--count {
     font-size: 22px;
+    font-family: Quicksand;
+    font-weight: 500;
 }
