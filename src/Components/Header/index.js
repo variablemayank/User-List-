@@ -10,7 +10,7 @@ const Header = (props) => {
                         type="text"
                         name="user-list"
                         onChange={(event) => { props && props.handleSearch(event) }}
-                        placeholder='Search By User Id or Title'
+                        placeholder='Search By User Id or Name'
                         className='input--field'
                     />
                 </div>
