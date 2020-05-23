@@ -1,0 +1,32 @@
+.header--container {
+    width: 100%;
+    height: 120px;
+}
+
+.header {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input--container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input--field {
+    width: 70%;
+    height: 50px;
+    font-family: Quicksand;
+    font-weight: 300;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 25px;
+}

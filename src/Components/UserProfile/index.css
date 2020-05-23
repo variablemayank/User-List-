@@ -1,0 +1,50 @@
+.user--profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: calc(100vh - 120px);
+    margin: 0 auto;
+    overflow: auto;
+
+}
+.user--profile--container {
+    width: 72%;
+    height: 91px;
+    border: 2px solid #ebebeb;
+    border-radius: 6px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    cursor: pointer;
+    justify-content: space-evenly;
+    background-color: #fafafa;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+} 
+.user--profile--container:hover {
+    background: white;
+}
+.user--profile--id {
+    text-align: left;
+    font-size: 26px;
+    font-family: QUicksand;
+    font-weight: 400;
+
+}
+.user--profile--title {
+    text-align: left;
+    font-size: 26px;
+    font-family: QUicksand;
+    font-weight: 400;
+
+}
+.user--profile--color {
+    font-weight: 300;
+    font-size: 22px;
+}
+.result--found--count {
+    font-size: 22px;
+}
